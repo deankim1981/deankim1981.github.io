@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Site Title"
+title                    : "웹개발 일지"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Dean Kim"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -58,9 +58,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia
+search                   : true # true, false (default)
+search_full_content      : false # true, false (default)
+search_provider          : lunr # lunr (default), algolia
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -100,8 +100,8 @@ analytics:
 author:
   name             : "Dean Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : ""
+  bio              : "꾸준히 쌓아가자"
+  location         : "Seoul, Korea"
   email            : "deankim1981@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -111,7 +111,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "deankim1981"
   gitlab           :
   google_plus      :
   keybase          :
